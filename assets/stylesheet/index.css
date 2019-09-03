@@ -1,3 +1,9 @@
 body{
     background-color: #533D5B
 }
+
+.menu li {
+    color:#fff;
+    list-style-type: none;
+    display: inline-flex;
+}

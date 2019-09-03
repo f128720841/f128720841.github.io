@@ -2,11 +2,16 @@ body{
     background-color: #533D5B
 }
 
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
 .menu ul li {
     color:#fff;
     list-style-type: none;
-    display: inline-flex;
+    
     cursor: pointer;
-    font-size: 20px;
+    font: 40px sans-serif;
     margin: 0 20px;
 }

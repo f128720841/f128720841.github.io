@@ -10,8 +10,7 @@ body{
 .menu ul li {
     color:#fff;
     list-style-type: none;
-    
     cursor: pointer;
-    font: 40px sans-serif;
+    font-size: 40px;
     margin: 0 20px;
 }

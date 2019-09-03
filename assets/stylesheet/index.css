@@ -2,8 +2,9 @@ body{
     background-color: #533D5B
 }
 
-.menu li {
+.menu ul li {
     color:#fff;
     list-style-type: none;
     display: inline-flex;
+    cursor: pointer;
 }

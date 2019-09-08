@@ -12,5 +12,6 @@ body{
     list-style-type: none;
     cursor: pointer;
     font-size: 40px;
+    font-weight: bold;
     margin: 0 20px;
 }

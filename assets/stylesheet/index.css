@@ -1,9 +1,16 @@
 body{
-    background-color: #533D5B
+    background-color: #533D5B;
+    background-image: url('http://funamusea.com/i/haikei.png');
+}
+
+div[class="menu"] {
+    position: absolute;
+    top: 100px;
+    right: 45%;
 }
 
 .menu ul{
-    display: inline-flex;
+    display: inline-block;
     margin: 50px;
 }
 
@@ -13,5 +20,17 @@ body{
     cursor: pointer;
     font-size: 40px;
     font-weight: bold;
-    margin: 0 20px;
+    margin: 0 auto;
+    font-family: 'Squada One', cursive;
+    text-align: center;
 }
+
+
+img[title="Heart"] {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 50%;
+}
+

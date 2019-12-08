@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>test-zone-2</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+            
+            <style type="text/css">
+
+
+            body {
+                background-color: black;
+
+                
+            }
+
+            ._section {
+                    width: 100%;
+                    float: left;
+                }
+
+            @media (min-width: 768px) {
+                body {
+                    background-color: gold;
+                }
+
+                ._section {
+                    width: 50%;
+                }
+            }
+
+            
+            @media (min-width: 992px) {
+                body {
+                    background-color: sandybrown;
+                }
+
+                ._section {
+                    width: 25%;
+                }
+            }
+                
+            @media (min-width: 1200px ) {
+                body {
+                background: rgba(209, 209, 149, 0.8);
+                }
+                
+            }
+            
+
+            @import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,300,400,500,600,700,900&display=swap&subset=chinese-traditional,cyrillic,vietnamese");
+
+
+            body{
+                margin: 0;
+                font-family: 'Noto Serif TC', serif;
+                position: relative;
+                
+            }
+
+            section {
+                background-color: blanchedalmond;
+                margin: 16px;
+                width: 600px;
+                height: 300px;
+            }
+
+            header {
+                background-image: url(./assets/img/heart.png);
+                height: 500px;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: table;
+                font-weight: normal;
+                
+                /* overflow: scroll;
+                background-attachment: local; */
+            }
+
+            h1 ,p{
+                margin: 0;
+                font-size: 50px;
+                color: rgba(200, 200, 0, 0.8);
+                
+            }
+
+            .title-container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .middle_button {
+                color: white;
+                background: rgba(0, 0, 0, 0.5);
+                width: 200px;
+                height: 200px;
+                font-size: 48px;
+                border-radius: 50%;
+                border: none;
+                position: absolute;
+                bottom: 100%;
+                left: 90%;
+            }
+
+            #button_div {
+                
+            }
+
+            a:visited {
+                color: gray;
+                cursor: progress;
+            }
+
+            a:hover {
+                color: indigo;
+                cursor: progress;
+            }
+
+            a:visited:hover {
+                color: khaki;
+                
+            }
+
+            a:active {
+                display: none;
+            }
+
+            </style>
+        </head>
+        <body>
+            <b>
+                <a href="https://www.google.com">Google</a>
+            </b>
+                <img src="" alt="" >
+
+            <div class="section_group">
+                <div class="_section" style="height: 50px;background-color: yellow;"></div>
+                <div class="_section" style="height: 50px;background-color: red;"></div>
+                <div class="_section" style="height: 50px;background-color: blue;"></div>
+                <div class="_section" style="height: 50px;background-color: purple;"></div>
+                
+            </div>
+
+            <img src="assets/img/heart.png" alt="" id="image">
+
+            <p style="text-shadow:15px 10px 2px rgba(200, 200, 0, 0.6);">第一行</p>
+            <span style="visibility: hidden; text-shadow:10px 10px 10px rgba(200, 200, 0, 0.8);">第二行</span>
+            <span style="display: inline-block;">第三行</span>
+            <p style="display: none;">第四行</p>
+
+            <button type="button" onclick="showOrHide()">show / hide</button>
+
+            <script>
+                function showOrHide() {
+                    var picture = document.getElementById("image");
+
+                if    (picture.style.visibility == "hidden") {
+                    picture.style.visibility = "visible";
+                }else{
+                    picture.style.visibility = "hidden"
+                }
+
+                }
+
+
+            var picture = document.getElementById("image");
+            picture.style.visibility = "hidden";
+            </script>
+
+            <header>
+                <div class="title-container">
+                    <h1>標題</h1>
+                    <button type="button">按鈕</button>
+                </div>
+            </header>
+
+            <div id="button_div" style="height: 50px;">
+
+                    <span style="float: left;">
+                        作者專區
+                    </span>
+
+                    <button type="button" style="float: right;height: 500px;">
+                        新按鈕
+                    </button>
+                </div>
+
+            <br style="clear: both;" />
+
+            <section>   
+                <h2 class="title">Section 1</h2>
+
+                <p>Section description</p>
+
+            </section>
+
+            <section>   
+                    <h2 class="title">Section 1</h2>
+    
+                    <p>Section description</p>
+    
+            </section>
+
+            <div style="background-color: rgba(200, 200, 0, 0.8);position: relative;">
+
+                    <a href="#section3">
+                            <button type="button" class="middle_button">Click</button>
+                    </a>
+                </div>
+
+            <section id="section3">   
+                        <h2 class="title">Section 1</h2>
+        
+                        <p>Section description</p>
+        
+            </section>
+
+            <iframe src="" frameborder="0">000</iframe>
+
+            
+            
+
+
+        </body>
+
+    </html>

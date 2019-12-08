@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<html lang="zh-Hant-TW">
+<html class="no-js" lang="zh-Hant-TW">
 
 <head>
     <meta charset="uft-8">
@@ -10,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Squada+One&display=swap">
     <link rel="stylesheet" href="assets/CSS/test-zone.css">
     <script type="text/javascript" src="assets/js/canvas.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr-custom.js"></script>
 
 </head>
 
@@ -115,6 +115,11 @@
         <br />
         <canvas id="canvas6" width="400" height="300"></canvas>
     </div>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <img src="assets/img/heart.png" style="height: 500px;width: 500px;" alt="no image" draggable="true" ondragstart="drag(event)" >
+
+
 
 </body>
 
